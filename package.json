@@ -26,7 +26,7 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "HUBOT_SLACK_TOKEN=xoxb-116408845249-832242083911-H72WiK7TmN0zbvm0QBHsTffy ./bin/hubot --adapter slack",
-    "debug": "HUBOT_SLACK_TOKEN=xoxb-116408845249-832242083911-H72WiK7TmN0zbvm0QBHsTffy coffee --nodejs --inspect node_modules/.bin/hubot --adapter slack"
+    "start": "source .env && ./bin/hubot --adapter slack",
+    "debug": "source .env && coffee --nodejs --inspect node_modules/.bin/hubot --adapter slack"
   }
 }
