@@ -26,7 +26,7 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "HUBOT_SLACK_TOKEN=xoxb-116408845249-832242083911-VMQJ9nVbRFA3hlnHFdk937kR ./bin/hubot --adapter slack",
-    "debug": "HUBOT_SLACK_TOKEN=xoxb-116408845249-832242083911-VMQJ9nVbRFA3hlnHFdk937kR coffee --nodejs --inspect node_modules/.bin/hubot --adapter slack"
+    "start": "HUBOT_SLACK_TOKEN=xoxb-116408845249-832242083911-dhgC2ObV4encJYxBaXc6Yx28 ./bin/hubot --adapter slack",
+    "debug": "HUBOT_SLACK_TOKEN=xoxb-116408845249-832242083911-dhgC2ObV4encJYxBaXc6Yx28 coffee --nodejs --inspect node_modules/.bin/hubot --adapter slack"
   }
 }
