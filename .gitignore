@@ -1,0 +1,12 @@
+# default
+node_modules
+.DS_Store*
+.hubot_history
+
+# intellij
+.idea
+*.iml
+
+# package
+yarn.lock
+package-lock.json
