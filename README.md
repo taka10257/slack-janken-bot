@@ -21,6 +21,11 @@ export HUBOT_SLACK_TOKEN=XXXXX
  - [glitch](https://glitch.com/)とgithub連携させて、リポジトリを取得・展開
  - .envファイルを手動で配置
 
+## glitch上記起動
+ - [uptime robot](https://uptimerobot.com/)
+  - glitchで展開したコードのURL `https://taka10257-slack-janken-bot.glitch.me/` を設定して定期的にサイトにアクセスすることで常時起動を確立
+  - 無料プランでは12h/dayなので、どちらにしても最大12時間稼働まで
+
 ## 参考記事
  - [【完全無料】Hubot + Glitch で Slack Bot](https://qiita.com/deerboy/items/00ff9f71c046a2883974#hubot%E6%95%B4%E5%82%99)
  - [Slack Developer Kit for Hubot](https://slack.dev/hubot-slack/)
